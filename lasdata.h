@@ -14,7 +14,7 @@ class PointCloud
 public:
     PointCloud(const std::string &path);
 
-    win32_t getVertsCount();
+    win_t getVertsCount();
     float3 *getVertsData();
 
 private:
