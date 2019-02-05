@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
+// This is defining structures
+
 struct float3
 {
     float x, y, z;
