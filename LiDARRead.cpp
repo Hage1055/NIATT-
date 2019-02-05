@@ -3,7 +3,7 @@
 #include <iostream> // std::cout
 
 std::ifstream ifs;
-ifs.open("file.las", std::ios::in | std::ios::binary); //Saddam...Change the file pathway to find where the file is for you
+ifs.open("file.las", std::ios::in | std::ios::binary); //Saddam...Change this file pathway to find where the file is for you
 
 liblas::ReaderFactory f;
 liblas::Reader reader = f.CreateWithStream(ifs); //Can also use reader, but this accounts for file compression as well
