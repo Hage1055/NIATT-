@@ -1,8 +1,6 @@
 classdef lasdata < handle
     %lasdata LAS data reader / writer / converter
-    %   Reads LAS files in format 1.0,1.1,1.2,1.3 and 1.4, supports point 
-    %   formats 0-10. This tool is intended for quick manual LAS file open,
-    %   edit, repair and saving.
+    %   Reads LAS files in format 1.0,1.1,1.2,1.3 and 1.4.
     %
     %   Load LAS file into class with c = lasdata('file.las');
     %   Default load only loads xyz coordinates. Additional variables can
@@ -13,9 +11,7 @@ classdef lasdata < handle
     %
     %   Data is written in the format set in the class header, except
     %   that the target format can be given with the write_las function.
-    %
-    %   Copyright (C) Teemu Kumpumki / Tampere University of Technology 2014
-	%	Licence: see the included BSD licence.
+    
     properties
         x; %X coordinate
         y; %Y coordinate
