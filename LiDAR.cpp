@@ -4,8 +4,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <getopt.h>
-//#include <sys/times.h>
-//#include <curl/curl.h>
 #include <string.h>
 #include <iostream>
 #include <fstream>>
