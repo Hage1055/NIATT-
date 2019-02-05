@@ -8,7 +8,7 @@ close all
 % 
 % tx=-N/2:1:N/2 ;%gridding
 % ty=tx;
-% %generate random poiints with coordiantes in the specified intervall
+% %generate random points with coordiantes in the specified intervall
 % C=-N/2+randi([0,N],3,N); 
 % Px=C(1,:);
 % Py=C(2,:);
